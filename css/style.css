@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -88,7 +88,7 @@ body {
     transition: 0.3s;
 }
 
-/* Buttons */
+
 .btn-primary, .btn-outline {
     padding: 12px 24px;
     border: none;
@@ -127,7 +127,7 @@ body {
     font-size: 16px;
 }
 
-/* Hero Section */
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -173,7 +173,7 @@ body {
     flex-wrap: wrap;
 }
 
-/* Features Section */
+
 .features {
     padding: 100px 0;
     background: #111;
@@ -224,7 +224,7 @@ body {
     line-height: 1.6;
 }
 
-/* Testimonials Section */
+
 .testimonials {
     padding: 100px 0;
     background: #0a0a0a;
@@ -272,7 +272,7 @@ body {
     font-size: 0.9rem;
 }
 
-/* CTA Section */
+
 .cta {
     padding: 100px 0;
     background: linear-gradient(135deg, #1a1a2e, #16213e);
@@ -292,7 +292,7 @@ body {
     margin-bottom: 32px;
 }
 
-/* Footer */
+
 .footer {
     background: #0a0a0a;
     padding: 60px 0 30px;
@@ -358,7 +358,7 @@ body {
     color: #666;
 }
 
-/* Animations */
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -370,7 +370,7 @@ body {
     }
 }
 
-/* Features Page Styles */
+
 .features-hero {
     padding: 120px 0 80px;
     background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
@@ -447,7 +447,7 @@ body {
     font-size: 1.2rem;
 }
 
-/* Pricing Page Styles */
+
 .pricing-hero {
     padding: 120px 0 80px;
     background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
