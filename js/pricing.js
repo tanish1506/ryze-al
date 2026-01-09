@@ -1,6 +1,6 @@
-// Simple pricing page functionality
+
 document.addEventListener('DOMContentLoaded', function() {
-    // Plan card hover effects
+
     const planCards = document.querySelectorAll('.plan-card');
     
     planCards.forEach(card => {
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Simple click tracking for plan buttons
+
     const planButtons = document.querySelectorAll('.plan-button');
     
     planButtons.forEach(button => {
@@ -27,13 +27,13 @@ document.addEventListener('DOMContentLoaded', function() {
             const planCard = this.closest('.plan-card');
             const planName = planCard.querySelector('h3').textContent;
             
-            // Simple animation
+
             this.style.transform = 'scale(0.95)';
             setTimeout(() => {
                 this.style.transform = 'scale(1)';
             }, 150);
             
-            // Simple alert for demo purposes
+
             if (this.textContent.includes('Contact Sales')) {
                 alert('Contact Sales form would open here');
             } else {
