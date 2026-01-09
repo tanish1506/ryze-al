@@ -1,6 +1,5 @@
-// Simple and clean JavaScript for the website
 document.addEventListener('DOMContentLoaded', function() {
-    // Mobile menu toggle
+    
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
     
@@ -11,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Navbar background on scroll
+    
     const navbar = document.querySelector('.navbar');
     window.addEventListener('scroll', function() {
         if (window.scrollY > 50) {
@@ -21,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Simple fade-in animation for cards
+    
     const observerOptions = {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px'
@@ -36,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, observerOptions);
 
-    // Observe feature cards
+    
     const featureCards = document.querySelectorAll('.feature-card');
     featureCards.forEach((card, index) => {
         card.style.opacity = '0';
@@ -45,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(card);
     });
 
-    // Observe testimonial cards
+    
     const testimonialCards = document.querySelectorAll('.testimonial-card');
     testimonialCards.forEach((card, index) => {
         card.style.opacity = '0';
@@ -54,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(card);
     });
 
-    // Simple button hover effects
+    
     const buttons = document.querySelectorAll('.btn-primary, .btn-outline');
     buttons.forEach(button => {
         button.addEventListener('mouseenter', function() {
